@@ -7,26 +7,12 @@
 @use 'components/typography';
 
 // import the sections
-@use 'setions/navbar';
-@use 'setions/intro-section';
-@use 'setions/companies';
-@use 'setions/services';
-@use 'setions/testimonials';
-@use 'setions/faq';
-@use 'setions/portfoilio';
-@use 'setions/get-started';
-@use 'setions/footer';
-
-.menu {
-    background: linear-gradient(to right, rgba($primary, 0.95), rgbs($secondary, 0.95));
-
-    li {
-        padding: 0 0.7rem;
-        
-        a {
-            color: $white !important;
-            text-transform: capitalize;
-            font-weight: 600;
-        }
-    }
-}
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/companies';
+@use 'sections/services';
+@use 'sections/testimonials';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/get-started';
+@use 'sections/footer';
